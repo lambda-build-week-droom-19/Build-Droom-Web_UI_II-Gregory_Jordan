@@ -1,0 +1,127 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+.btn {
+  padding: 4px;
+  font-size: 11px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0 9px rgb(153, 153, 153);
+  
+}
+
+.btn:active {
+  background-color: #e7dbdb;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+/* .header {
+  font-weight: bold; 
+} */
+
+.logo {
+  height: 2.5rem;
+  width: 3rem;
+}
+
+.work-img{
+  height: 8rem;
+  width: 8rem;
+  justify-content: center;
+}
+
+p {
+  line-height: 2rem;
+}
+.font {
+  font-size: 1.5rem;
+}
+li {
+  line-height: 2rem;
+}
+
+
+.index-banner {
+  width: 50%
+  
+}
+
+.parallax img {
+  width: 50px;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+  #download-button1 {
+    margin-bottom: 1.5rem;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    /* position: absolute; */
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  
+
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 5%;
+  }
+  #index-banner1 .section {
+    top: 0;
+    /* display: none; */
+  }
+  
+  #download-button {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.twitter {
+  height: 15px;
+  width: 20px
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
