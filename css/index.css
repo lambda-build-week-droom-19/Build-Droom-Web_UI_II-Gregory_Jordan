@@ -1,0 +1,10 @@
+body {
+position: absolute;
+width: 1440px;
+height: 812px;
+left: 0px;
+top: 0px;
+
+background: url(/assets/main_bg.jpeg);
+border-radius: 0px 0px 0px 300px;
+}
