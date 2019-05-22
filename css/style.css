@@ -11,14 +11,14 @@ nav .brand-logo {
   color: #444;
 }
 .btn {
-  padding: 4px;
+  padding: 2px 10px;
   font-size: 11px;
   text-align: center;
   cursor: pointer;
   outline: none;
   color: #fff;
   border: none;
-  border-radius: 7px;
+  border-radius: 10px;
   box-shadow: 0 9px rgb(153, 153, 153);
   
 }
@@ -33,6 +33,18 @@ nav .brand-logo {
 /* .header {
   font-weight: bold; 
 } */
+#download-button {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-radius: 20px;
+}
+
+#download-button1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-radius: 20px;
+  margin-bottom: 1.5rem;
+}
 
 .logo {
   height: 2.5rem;
@@ -67,6 +79,10 @@ li {
 
 .sidenav-trigger {
   color: #26a69a;
+}
+
+.footer {
+  display: flex
 }
 
 .parallax-container {
@@ -107,14 +123,18 @@ li {
   #download-button {
     margin-top: 0;
     margin-bottom: 0;
+    border-radius: 20px;
   }
 }
 
 .twitter {
-  height: 2.5rem;
-  width: 2.5rem
+  height: 1.5rem;
+  width: 1.5rem
 }
-
+.fab {
+  height: 1rem;
+  width: 1rem
+}
 .icon-block {
   padding: 0 15px;
 }
