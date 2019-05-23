@@ -16,24 +16,26 @@
 
   <!-- Navbar -->
 
-  <div class="navbar-fixed" >
+  <div class="navbar-fixed" id="home" >
       <nav class="purple lighten-4" role="navigation">
         <div class="nav-wrapper container">
-          <a id="logo-container" href="#logo-container" class="brand-logo">Droom <img src="/assets/Logo.png" alt="Droom" class="logo"></a>
+          <a id="logo-container" href="#home" class="brand-logo">Droom <img src="/assets/Logo.png" alt="Droom" class="logo"></a>
           <ul class="right hide-on-med-and-down">
+            <li><a href="#home">Home</a></li>
             <li><a href="#features">Features</a></li>
             <li><a href="#how-it-works">How it works</a></li>
-            <li><a href="#team">Our Team</a></li>
+            <li><a href="#our-team">Our Team</a></li>
+            <li><a href="https://droom-app.netlify.com/login">Log In</a></li>
             <li><a href="#"><button class="purple lighten-3 btn"> Sign Up</button></a></li>
           </ul>
 
           <!-- mobile -->
-
           <ul id="nav-mobile" class="sidenav">
+            <li><a href="#home">Home</a></li>
             <li><a href="#features">Features</a></li>
             <li><a href="#how-it-works">How it works</a></li>
-            <li><a href="#team">Our Team</a></li>
-            <li><a href="#">Log In</a></li>
+            <li><a href="#our-team">Our Team</a></li>
+            <li><a href="https://droom-app.netlify.com/login">Log In</a></li>
             <li><a href="#">Sign Up</a></li>
           </ul>
           <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -45,7 +47,7 @@
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
-      <div class="container">
+      <div class="container" >
         <br><br>
         <h2 class="header center purple-text text-lighten-5">A quick and simple path to finding your dream job.</h2>
         <div class="row center">
@@ -147,9 +149,9 @@
   </div>
 
   <!-- How it works section -->
-  <div class="container">
+  <div class="container" id="how-it-works">
     <div class="section">
-      <div class="row purple-text text-lighten" id="how-it-works">
+      <div class="row purple-text text-lighten">
         <div class="col s12 center">
           <h3><i class="mdi-content-send purple-text text-lighten"></i></h3>
           <h4>How it works?</h4>
@@ -174,7 +176,7 @@
   </div>
 
   <!-- Footer -->
-  <footer class="page-footer purple lighten-5">
+  <footer class="page-footer purple lighten-5" id="our-team">
     <div class="container">
       <div class="row">
         <div class="col l6 s12 purple-text text-lighten footer">
@@ -191,20 +193,7 @@
               <li>William Umstead, BE</li>
             </ul>
         </div>
-        <!-- <div class="col l3 s13">
-          <h5 class="purple-text text-lighten">Our Team</h5>
-          <ul>
-            <li>Team Lead</li>
-            <li>UX Designer</li>
-            <li>Front End</li>
-            <li>Gregory L. Jordan Sr UI</li>
-            <li>BE</li>
-            <li>BE</li>
-            <li>UI</li>
-          </ul>
-        </div> -->
-
-
+        
         <!-- Contact section -->
         <div class="col l3 s13">
           <h5 class="purple-text text-lighten">GitHub</h5>
@@ -218,21 +207,8 @@
             <li><a class="purple-text text-lighten" href="https://github.com/" target="_blank"><span class="github" style="color: black;"><i class="fab fa-github"></i></span></a></li>
             <li><a class="purple-text text-lighten" href="https://github.com/brellin" target="_blank"><span class="github" ><i class="fab fa-github" style="color: black;"></i></span></a></li>
           </ul>  
-          <!-- <div class="col l3 s14">
-              <h5 class="purple-text text-lighten"> <span style="color: Dodgerblue"><i class="fab fa-linkedin" aria-hidden="true"></i></span> </h5>
-              <ul>
-                <li><a class="purple-text text-lighten" href="https://github.com/Civoremo">
-                  <span style="color: Dodgerblue"><i class="fab fa-linkedin" aria-hidden="true">
-                  </i></a></li>
-                <li><a class="purple-text text-lighten" href="https://github.com/rwindsor"></a></li>
-                <li><a class="purple-text text-lighten" href="https://github.com/mckaywrigley"></a></li>
-                <li><a class="purple-text text-lighten" href="https://github.com/GregJordanSr"></a></li>
-                <li><a class="purple-text text-lighten" href="https://github.com/Fractured2K"></a></li>
-                <li><a class="purple-text text-lighten" href="https://github.com/aasriyan"> </a></li>
-                <li><a class="purple-text text-lighten" href="https://github.com/raidonamakobe"></a></li>
-              </ul>
-          </div> -->
         </div>
+
         <!-- Twitter connections -->
         <div class="col l3 s12">
           <h5 class="purple-text text-lighten">Connect</h5>
